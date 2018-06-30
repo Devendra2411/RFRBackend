@@ -1,0 +1,1 @@
+ALTER TABLE rfr_workflow ADD COLUMN calenco_doc_id varchar(255) NOT NULL;

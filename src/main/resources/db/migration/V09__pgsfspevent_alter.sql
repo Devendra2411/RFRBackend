@@ -1,0 +1,1 @@
+ALTER TABLE rfr_pgs_fspevent DROP COLUMN outage_number;

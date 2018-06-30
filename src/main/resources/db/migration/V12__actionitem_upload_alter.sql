@@ -1,0 +1,1 @@
+ALTER TABLE rfr_action_item_files ADD COLUMN file_id VARCHAR(255) NOT NULL;

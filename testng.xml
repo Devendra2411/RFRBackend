@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RFR" verbose="1">
+
+	<test name="Common">
+		<packages>
+			<package name="com.ge.rfr.common.*" />
+		</packages>
+	</test>
+
+	<test name="Helper">
+		<packages>
+			<package name="com.ge.rfr.helper.*" />
+		</packages>
+	</test>
+
+	<test name="Workflow">
+		<packages>
+			<package name="com.ge.rfr.workflow.*" />
+			<package name="com.ge.rfr.actionitem.*" />
+			 <package name="com.ge.rfr.actionitem.notes.*" />
+			 <package name="com.ge.rfr.phonecalldetails.*" />
+		</packages>
+	</test>
+
+</suite>

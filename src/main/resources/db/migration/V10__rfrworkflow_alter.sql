@@ -1,0 +1,1 @@
+ALTER TABLE rfr_workflow ADD COLUMN train_id int4 not null;

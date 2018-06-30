@@ -1,0 +1,1 @@
+ALTER TABLE rfr_pgs_fspevent ADD region VARCHAR(255) NOT NULL;
